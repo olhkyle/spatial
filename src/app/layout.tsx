@@ -15,9 +15,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>
+      <body className="antialiased">
         <Header />
-        <main className="w-full h-[calc(100dvh-60px)]">{children}</main>
+        <main className="mx-auto px-4 w-full h-[calc(100dvh-60px)]">
+          {children}
+        </main>
+        <footer className="flex justify-between py-8 px-4 w-full">
+          <span>© Spatial</span>
+          <span>2025</span>
+        </footer>
       </body>
     </html>
   );
