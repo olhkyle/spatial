@@ -3,7 +3,7 @@ import { ButtonLink } from ".";
 
 const links = [
   {
-    label: "Get New Link ",
+    label: "Create My Page",
     href: url.LINK,
   },
   {
